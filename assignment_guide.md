@@ -64,3 +64,6 @@ In this assignment, you will need to:
 ### 2.3. (5%) Acknowledge AI's contributions.
 If AI helped with this assignment, please list out all the contributions.
 
+## 3. Resources
+[Pololu TB6612FNG Dual Motor Driver Carrier](https://www.pololu.com/product/713)
+[TB6612FNG Datasheet](https://toshiba.semicon-storage.com/info/TB6612FNG_datasheet_en_20141001.pdf?did=10660&prodName=TB6612FNG)
