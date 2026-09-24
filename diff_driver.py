@@ -1,8 +1,5 @@
-"""
-Import correct modules and build a DiffDriver class upon them.
-Refer to: https://github.com/linzhangUCA/3421example-motor_control
-"""
-
+class DiffDriver:
+  pass
 
 # TEST
 if __name__=="__main__":
