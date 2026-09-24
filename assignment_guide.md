@@ -31,9 +31,8 @@ In this assignment, you will need to:
 > - The wiring of the motor driver board is different from the example.
 > - Credits will be redeemed after the circuit picture is uploaded.
 
-### 2.2 (57%) Coding Exercises
-1. Upload the python module contains `Motor` class to the root of this repository.
-2. Develop a `DiffDriver` class in [diff_driver.py](diff_driver.py) using the imported `Motor` class with following methods: 
+### 2.2 (65%) Coding Exercises
+1. Develop a `DiffDriver` class in [diff_driver.py](diff_driver.py) using the `Motor` class in [motor.py](motor.py).
    - (5%) `forward(speed)`: drives mobile base straight forward at `speed` percent of the max speed.
    - (5%) `backward(speed)`: drives mobile base straight backward at `speed` percent of the max speed.
    - (5%) `spin_left(speed)`: spins mobile base in place **counter-clockwisely** around the center of the axle at `speed` percent of the max speed.
@@ -46,24 +45,22 @@ In this assignment, you will need to:
    - (5%) `backward_left()`: drives mobile backward and leaning left.  
    - (5%) `backward_right()`: drives mobile base backward and leaning right.
 > [!IMPORTANT]
-> - For `forward_left()`, `forward_right()`, `backward_left()` and `backward_right()` use 50% max speed for the faster motor and 25% max speed for the slower motor.
-> - Test newly developed methods frequently using the test code below: `if __name__=="__main__":`.
+> - You'll need to upload [motor.py](motor.py) to Pico.
+> - For `forward_left()`, `forward_right()`, `backward_left()` and `backward_right()`, use 50% max speed for the faster motor and 25% max speed for the slower motor.
+> - You can test newly developed methods using the section below: `if __name__=="__main__":`.
 
-3. (10%) Complete code in [test_diff_drive.py](test_diff_drive.py) to instantiate the `DiffDriver` class and use it to spin the motors.
-- Import correct module and instantiate an object using `DiffDriver` class.
-- Perform the following sequence of operations on mobile base. Each operation should last for **1 second**.
-     1. (1%) `forward(0.5)`
-     2. (1%) `forward_left()`.
-     3. (1%) `spin_left(0.5)`.
-     4. (1%) `backward_left()`.
-     5. (1%) `backward(0.5)`.
-     6. (1%) `backward_right()`
-     7. (1%) `spin_right(0.5)`
-     8. (1%) `forward_right()`
-
-> [!NOTE]
-> The grader will check your work using his/her own mobile base.
+2. Complete code in [test_diff_drive.py](test_diff_drive.py) to instantiate the `DiffDriver` class and use it to spin the motors.
+- (2%) Import correct module and instantiate an object using `DiffDriver` class.
+- (8%) Perform the following sequence of operations on mobile base. Each operation should last for **1 second**.
+     1. `forward(0.5)`
+     2. `forward_left()`.
+     3. `spin_left(0.5)`.
+     4. `backward_left()`.
+     5. `backward(0.5)`.
+     6. `backward_right()`
+     7. `spin_right(0.5)`
+     8. `forward_right()`
    
-### 2.3. (3%) Acknowledge AI's contributions.
+### 2.3. (5%) Acknowledge AI's contributions.
 If AI helped with this assignment, please list out all the contributions.
 
