@@ -11,21 +11,21 @@ In this assignment, you will need to:
 
 ## 2. Requirements
 
-### 1. (35%) Physical Configuration
-You will configure the motor driver board slightly different from the example.
-
-#### 1.1. Wiring Pico and Motor Driver Board
+### 2.1. (35%) Wire Up the Motor Driver
+> [!NOTE]
+> The wiring of the motor driver board is different from the example.
 - Control left motor using `A` channel of the motor driver board.
 - Control right motor using `B` channel.
-- (5%) Use `GPIO7` for left motor's `PWM` input.
-- (5%) Use `GPIO9` for left motor's `IN1` input.
-- (5%) Use `GPIO8` for left motor's `IN2` input.
-- (5%) Use `GPIO15` for right motor's `PWM` input.
-- (5%) Use `GPIO13` for right motor's `IN1` input.
-- (5%) Use `GPIO14` for right motor's `IN2` input.
-- (5%) Use `GPIO12` for motor driver's `STBY` input.
+- (2%) Use `GPIO15` for motor A's `PWM` input.
+- (2%) Use `GPIO13` for motor A's `IN1` input.
+- (2%) Use `GPIO14` for motor A's `IN2` input.
+- (2%) Use `GPIO16` for motor B's `PWM` input.
+- (2%) Use `GPIO18` for motor B's `IN1` input.
+- (2%) Use `GPIO17` for motor B's `IN2` input.
+- (2%) Use `GPIO12` for motor driver's `STBY` input.
 
-#### 1.2. Circuit Picture
+Circuit Picture
+-
 - Please take a picture of your circuit and display it below 👇
 
 ![circuit_pic](circuit_pic.jpg)
