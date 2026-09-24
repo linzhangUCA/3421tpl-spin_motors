@@ -12,31 +12,27 @@ In this assignment, you will need to:
 ## 2. Requirements
 
 ### 2.1. (35%) Wire Up the Motor Driver
-> [!NOTE]
-> The wiring of the motor driver board is different from the example.
-- Control left motor using `A` channel of the motor driver board.
-- Control right motor using `B` channel.
-- (2%) Use `GPIO15` for motor A's `PWM` input.
-- (2%) Use `GPIO13` for motor A's `IN1` input.
-- (2%) Use `GPIO14` for motor A's `IN2` input.
-- (2%) Use `GPIO16` for motor B's `PWM` input.
-- (2%) Use `GPIO18` for motor B's `IN1` input.
-- (2%) Use `GPIO17` for motor B's `IN2` input.
-- (2%) Use `GPIO12` for motor driver's `STBY` input.
+1. (21%) Wire up the motor driver board with Pico board following the instructions below.
+ - (2%) Use `GPIO12` for `PWMA` input.
+ - (2%) Use `GPIO14` for `AIN1` input.
+ - (2%) Use `GPIO13` for `AIN2` input.
+ - (2%) Use `GPIO18` for `PWMB` input.
+ - (2%) Use `GPIO16` for `BIN1` input.
+ - (2%) Use `GPIO17` for `BIN2` input.
+ - (2%) Use `GPIO15` for `STBY` input.
+ - (7%) Correctly wire up the battery and the power pins (for both boards).
 
-Circuit Picture
--
-- Please take a picture of your circuit and display it below 👇
+> [!IMPORTATNT]
+> - The wiring of the motor driver board is different from the example.
+> - Credits will be redeemed after the circuit picture is uploaded.
 
-![circuit_pic](circuit_pic.jpg)
+2. (14%) Show off your circuit picture in [README](README.md)
+ - (7%) Please organize your circuit and reveal the connections with a clear view (position camera aptly and do not obscure key connections).
+   You can upload more than one picture to better demonstrate. 
+ - (7%) Images must be scaled to 800 × 600 pixels with a horizontal orientation.
+ 
 
-> [!IMPORTANT]
-> - Please make sure your picture **clearly** illustrates the wiring as required above.
-> - You'll get your points after picture is correctly rendered.  
-> - Only the signal wiring section is mandatory.
-> illustrating motor and battery connections is optional. 
-
-### 2. (65%) Coding Exercises
+### 2.2 (65%) Coding Exercises
 
 #### 2.1. (55%) Build `DiffDriver` Class from Inheritance
 Work in [diff_driver.py](diff_driver.py).
