@@ -1,7 +1,7 @@
 # Spin Motors
 
 ## Circuit Picture
-![circuit](circuit.png)
+![circuit](assets/images/circuit.png)
 
 ## Acknowledge AI's contributions
 > reserved for answer
