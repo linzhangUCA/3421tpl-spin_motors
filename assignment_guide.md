@@ -32,13 +32,13 @@ Wire up the motor driver board with Pico board following the instructions below.
 ### 2.2. (20%) Spin a motor
 A `Motor` class has been constructed and available at [motor.py](motor.py).
 Please use this class to test the motor by spinning it back and forth at varied speed. 
-> [!NOTE]
-> You can drop the test code under the `if __name__ == "__main__":` section.
-
 1. (5%) Forwardly ramp up motor speed from 0 to maximum in 5 seconds. Increase the dutycycle 5% at a time.
 2. (5%) Forwardly ramp down motor speed from maximum to 0 in 5 seconds. Decrease the dutycycle 4% at a time.
 3. (5%) Backwardly ramp up motor speed from 0 to maximum in 5 seconds. Increase the dutycycle 4% at a time.
 4. (5%) Backwardly ramp down motor speed from maximum to 0 in 5 seconds. Decrease the dutycycle 5% at a time.
+
+> [!IMPORTANT]
+> Drop the code under the `if __name__ == "__main__":` section.
 
 ### 2.3. (50%) Develop a dual motor driver for differential drive 
 Develop a `DiffDriver` class in [diff_driver.py](diff_driver.py) using the `Motor` class from [motor.py](motor.py).
