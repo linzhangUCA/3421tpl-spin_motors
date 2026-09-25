@@ -11,8 +11,8 @@ In this assignment, you will need to:
 
 ## 2. Requirements
 
-### 2.1. (20%) Wire Up the Motor Driver
-1. Wire up the motor driver board with Pico board following the instructions below.
+### 2.1. (18%) Wire Up the Motor Driver
+Wire up the motor driver board with Pico board following the instructions below.
    - (2%) Use `GPIO12` for `PWMA` input.
    - (2%) Use `GPIO14` for `AIN1` input.
    - (2%) Use `GPIO13` for `AIN2` input.
@@ -21,15 +21,13 @@ In this assignment, you will need to:
    - (2%) Use `GPIO17` for `BIN2` input.
    - (2%) Use `GPIO15` for `STBY` input.
    - (4%) Correctly wire up the battery and the power pins (for both boards).
-
-2. Show off your circuit picture in [README](README.md)
-   - (7%) Please organize your circuit and reveal the connections with a clear view (position camera aptly and do not obscure key connections).
-     You can upload more than one picture to better demonstrate. 
-   - (5%) Images must be scaled to 800 × 600 pixels with a horizontal orientation.
  
 > [!IMPORTANT]
-> - The wiring of the motor driver board is different from the example.
-> - Credits will be redeemed after the circuit picture is uploaded.
+> - Please show off your circuit picture in [README](README.md)
+> - Organize your circuit and reveal the connections with a clear view (position camera aptly and do not obscure key connections).
+    You can upload more than one picture to better demonstrate. 
+> - Images must be scaled to 800 × 600 pixels with a horizontal orientation.
+> - Credits will be redeemed after the circuit pictures are documented.
 
 ### 2.2. (20%) Spin a motor
 A `Motor` class has been constructed and available at [motor.py](motor.py).
@@ -71,7 +69,10 @@ Complete code in [test_diff_drive.py](test_diff_drive.py) to instantiate the `Di
      6. `backward_right()`
      7. `spin_right(0.5)`
      8. `forward_right()`
-   
+
+### 2.5. (2%) Acknowledge AI's contributions.
+If AI helped with this assignment, please list out all the contributions.
+
 ## 3. Resources
 [Pololu TB6612FNG Dual Motor Driver Carrier](https://www.pololu.com/product/713)
 [TB6612FNG Datasheet](https://toshiba.semicon-storage.com/info/TB6612FNG_datasheet_en_20141001.pdf?did=10660&prodName=TB6612FNG)
