@@ -44,7 +44,7 @@ Please use this class to test the motor by spinning it back and forth at varied 
 
 ### 2.3. (50%) Develop a dual motor driver for differential drive 
 Develop a `DiffDriver` class in [diff_driver.py](diff_driver.py) using the `Motor` class from [motor.py](motor.py).
-   - (5%) Initialize left and right motors and the `stby_pin`.
+   - (5%) Configure left and right motors and the `stby_pin` in class's `__init__` function.
    - (5%) `forward(speed)`: drives mobile base straight forward at normalized speed between 0 (stall) and 1 (full speed).
    - (5%) `backward(speed)`: drives mobile base straight backward at normalized speed between 0 (stall) and 1 (full speed).
    - (5%) `spin_left(speed)`: spins mobile base in place **counter-clockwisely** around the center of the axle at normalized speed between 0 (stall) and 1 (full speed).
