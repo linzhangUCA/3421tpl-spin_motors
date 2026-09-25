@@ -31,8 +31,19 @@ In this assignment, you will need to:
 > - The wiring of the motor driver board is different from the example.
 > - Credits will be redeemed after the circuit picture is uploaded.
 
-### 2.2 (65%) Coding Exercises
-1. Develop a `DiffDriver` class in [diff_driver.py](diff_driver.py) using the `Motor` class in [motor.py](motor.py).
+### 2.2. (20%) Spin a motor
+A `Motor` class has been constructed and available at [motor.py](motor.py).
+Please use this class to test the motor by spinning it back and forth at varied speed. 
+> [!NOTE]
+> Work on the test under the `if __name__ == "__main__":` section.
+
+1. Forwardly ramp up motor speed from 0 to maximum in 5 seconds. Increase the dutycycle 5% at a time.
+2. Forwardly ramp down motor speed from maximum to 0 in 5 seconds. Decrease the dutycycle 4% at a time.
+3. Backwardly ramp up motor speed from 0 to maximum in 5 seconds. Increase the dutycycle 4% at a time.
+4. Backwardly ramp down motor speed from maximum to 0 in 5 seconds. Decrease the dutycycle 5% at a time.
+
+### 2.3. Develop a dual motor driver for differential drive 
+Develop a `DiffDriver` class in [diff_driver.py](diff_driver.py) using the `Motor` class from [motor.py](motor.py).
    - (5%) `forward(speed)`: drives mobile base straight forward at `speed` percent of the max speed.
    - (5%) `backward(speed)`: drives mobile base straight backward at `speed` percent of the max speed.
    - (5%) `spin_left(speed)`: spins mobile base in place **counter-clockwisely** around the center of the axle at `speed` percent of the max speed.
