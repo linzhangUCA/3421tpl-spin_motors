@@ -50,7 +50,7 @@ Develop a `DiffDriver` class in [diff_driver.py](diff_driver.py) using the `Moto
    - (5%) `stop()`: **actively break** to stop both motors.
    - (5%) `forward_left()`: drives mobile base forward and leaning left.
    - (5%) `forward_right()`: drives mobile base forward and leaning right. 
-   - (5%) `backward_left()`: drives mobile backward and leaning left.  
+   - (5%) `backward_left()`: drives mobile base backward and leaning left.  
    - (5%) `backward_right()`: drives mobile base backward and leaning right.
 > [!IMPORTANT]
 > - You'll need to upload [motor.py](motor.py) to Pico.
