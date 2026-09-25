@@ -1,6 +1,6 @@
 # Import
 
-# Instantiate
-diff_driver = DiffDriver(left_ids=(), right_ids=(), stby_id=)  # fill in correct ids
+# SETUP
+diff_driver = None
 
-# Execute
+# LOOP
